@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "bin" : {
+    "uh" : "index.js"
+  },
+  "author": "Ágúst Ingi Kjartansson",
+  "license": "GPL-3.0",
   "dependencies": {
     "cheerio": "^0.22.0",
     "keytar": "^3.0.2",
